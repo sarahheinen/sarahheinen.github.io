@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Sarah Heinen</title>
 	<style>
-		body {background-color: #D8FFDD; text-align: center; color: #114069; font-family: "Tahoma"}
-		a:link{color: #114069; text-decoration: none}
-		a:hover{color: #D4AFCD; text-decoration: none}
+		body{
+			background-color: #D8FFDD; 
+			text-align: center; 
+			color: #114069; font-family: 
+			"Tahoma"
+			margin: 0;
+		}
+		a:link{
+			color: #114069; 
+			text-decoration: none
+		}
+		a:visited{
+			color: #114069;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #D4AFCD; 
+			text-decoration: none
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		li{
+			float: left;
+		}
+		li a:hover:not(.active){
+			background-color:  #111;
+		}
+		.active{
+			background-color: #D8FFDD;
+		}
 	</style>
 </head>
 
 <body>
+
+<ul>
+	<li><a class="active" href="/index.html">Home</a></li>
+	<li><a href="/html/about.html">About</a></li>
+</ul>
 <h1>Welcome</h1>
-<h2><a href="/html/about.html">About</a></h2>
 <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
