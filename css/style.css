@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Sarah Heinen</title>
-	<style>
-		#grad{
+<style>
+#grad{
 			height: 1000px;
 			background-image: linear-gradient(white, #114069);
 			margin: 0;
@@ -47,33 +43,10 @@
 		h1{
 			font-size: 4em;
 		}
-		h2{
-			font-size: 3em;
-		}
-		h3{
-			font-size: 1.5em;
-		}
 		article{
 			float: left;
 			margin-left: 200px;
 			margin-top: 50px;
 			line-height: 0.5;
 		}
-	</style>
-</head>
-
-<body>
-
-<ul>
-	<li><a class="active" href="/index.html">Home</a></li>
-	<li><a href="/html/about.html">About</a></li>
-</ul>
-
-<div id="grad">
-	<article>
-		<h1>Sarah Heinen</h1>
-		<h3>Computer Science Student at Franciscan University</h3>
-	</article>
-</div>
-</body>
-</html>
+</style>
