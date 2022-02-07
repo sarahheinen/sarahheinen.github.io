@@ -3,15 +3,18 @@
 <head>
 	<title>Sarah Heinen</title>
 	<style>
-		body{
-			background-color: #D8FFDD; 
+		#grad{
+			height: 1000px;
+			background-image: linear-gradient(white, #114069);
+		}
+		body{ 
 			text-align: center; 
-			color: #114069; font-family: 
-			"Tahoma"
+			color: #114069; 
+			font-family: "Tahoma";
 			margin: 0;
 		}
 		a{
-			color: white;
+			color: #114069;
 			text-decoration: none
 		}
 		ul{
@@ -19,23 +22,19 @@
 			margin: 0;
 			padding: 0;
 			overflow: hidden;
-			background-color: #333;
 			position: fixed;
 			top: 0;
 			width: 100%;
 		}
 		li{
-			float: left;
+			float: right;
 		}
 		li a{
 			display: block;
 			padding:  16px;
 		}
-		li a:hover:not(.active){
-			background-color:  #111;
-		}
-		.active{
-			background-color: #D8FFDD;
+		h1{
+			margin-top: 64px;
 		}
 	</style>
 </head>
@@ -47,7 +46,7 @@
 	<li><a href="/html/about.html">About</a></li>
 </ul>
 
-<div>
+<div id="grad">
 <h1>Welcome</h1>
 <p>I'm hosted with GitHub Pages.</p>
 </div>
