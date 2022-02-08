@@ -1,52 +1,49 @@
-<style>
-#grad{
-			height: 1000px;
-			background-image: linear-gradient(white, #114069);
-			margin: 0;
-		}
-		.front{
-			position: absolute;
-			width: 300px;
-			right 0px;
-			text-align: left;
-		}
-
-		a{
-			color: #114069;
-			text-decoration: none
-		}
-		ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			position: fixed;
-			top: 0;
-			width: 100%;
-		}
-		li{
-			float: right;
-		}
-		li a{
-			display: block;
-			padding:  16px;
-		}
-		h1{
-			margin-top: 64px;
-		}
-		body{ 
-			text-align: left; 
-			color: #114069; 
-			font-family: "Tahoma";
-			margin: 0;
-		}
-		h1{
-			font-size: 4em;
-		}
-		article{
-			float: left;
-			margin-left: 200px;
-			margin-top: 50px;
-			line-height: 0.5;
-		}
-</style>
+a{
+	color: #114069;
+	text-decoration: none
+}
+a:hover{
+	color: #0C2E4B;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li{
+	float: right;
+}
+li a{
+	display: block;
+	padding:  16px;
+}
+.icons{
+	font-size: 4em;
+}
+body{ 
+	text-align: left; 
+	color: #114069; 
+	font-family: "Tahoma";
+	margin: 0;
+}
+h1{
+	margin-top: 64px;
+	font-size: 4em;
+	line-height: 40%;
+}
+h2{
+	font-size: 3em;
+}
+h3{
+	font-size: 1.5em;
+}
+article{
+	float: left;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+}
