@@ -1,3 +1,10 @@
+html{
+	background-image: linear-gradient(white, #114069);
+	background-attachment: fixed;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
 a{
 	color: #114069;
 	text-decoration: none
