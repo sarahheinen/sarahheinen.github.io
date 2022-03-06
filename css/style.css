@@ -48,13 +48,20 @@ hr.solid{
 	margin-top: 20px;
 }
 
-/* Entry div */
+/* Entry divs */
 
-.entry{
+.entry0{
+	min-height: 80px;
+}
+.entry1{
 	min-height: 210px;
 }
 .entry2{
 	min-height: 455px;
+}
+.justify{
+	display: flex;
+	justify-content: space-between;
 }
 
 /* Text styling */
@@ -125,4 +132,5 @@ img{
 
 video{
 	border-radius: 5px;
+	height: 210px;
 }
