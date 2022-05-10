@@ -134,3 +134,15 @@ video{
 	border-radius: 5px;
 	height: 210px;
 }
+
+/* Audio */
+
+audio{
+	border-radius: 5px;
+	width: 100%;
+}
+.audio{
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+}
