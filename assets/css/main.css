@@ -1,9 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Editorial by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1243,6 +1243,32 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
+
+/* Video */
+  #videos {
+    width: 100%;
+    margin: 0 0 2em 0;
+    display: block;
+    border-radius: 0.375em;
+    border: 0;
+
+  }
+
+  .video {
+    border-radius: 0.375em;
+    border: 0;
+    display: inline-block;
+    position: relative; }
+    .video video {
+      border-radius: 0.375em;
+      display: block; }
+    .video.fit {
+      display: block;
+      margin: 0 0 2em 0;
+      width: 100%; }
+      .image.fit img {
+        width: 100%; }
+
 
 a.image {
   overflow: hidden; }
